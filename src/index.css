@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-color: #000000;
+}
+
+.navbar{
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: #1a1a1a;
+}
+.brand{
+  font-size: 1.2vw;
+  font-weight: normal;
+  width: 20%;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  color: #ffffffe3;
+  align-items: center;
+}
+.cart{
+  font-size: 1.2vw;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffffffe3;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+  font-size: 1vw;
+  font-weight: normal;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-container {
+  margin-top: 60px; /* Adjust based on your navbar height */
+}
